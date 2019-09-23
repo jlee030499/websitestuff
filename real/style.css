@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+  font-family: "Raleway", sans-serif;
+}
+
+li,a,button{
+  font-family:"Raleway", san-sans-serif;
+  font-weight:500;
+  font-size: 9px;
+  text-decoration: none;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:0px 2%;
+  background-image: image("../images/rhino.jpg");
+}
+nav ul{
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  padding:20px;
+}
+
+nav a{
+  color:#000000;
+  width:100px;
+  display:block;
+  padding:15px;
+  text-align: center;
+  font-size:20px;
+}
+
+nav a:hover{
+  color:#A9A9A9;
+  size:30px;
+  transition:.4s
+}
+
+body {
+  background-color: #FFF;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #A6866A;
+}
+.container{
+  font-size: 24pt;
+  padding-left: 30px;
+  margin: 0px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000000;
+}
+.buttons{
+  color:#fff;
+  background-color: rgba(0, 136, 169, 1);
+  border:none;
+  padding:15px;
+  cursor:pointer;
+  border-radius:50px;
+  font-family: "Raleway",sans-serif;
+  font-size: 20px;
+}
+
+.rhino {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/af/Ngorongoro_Spitzmaulnashorn_edit1.jpg');
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin-bottom: 3px;
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 48pt;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.mission {
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  text-align: center;
+  color:#000000;
+}
+
+.content{
+  padding-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+  color:#000000;
+  padding-bottom: 30px;
+}
+
+.info {
+  box-sizing: border-box;
+  margin: 0px;
+  width: 100%;
+  font-size:40px;
+  color:black;
+}
+.facts{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
+  align-items: center;
+  padding-left: 40px;
+  width: 49%;
+}
+
+.headerone{
+  text-align: center;
+  font-size: 70px;  background-image: url('https://singularityhub.com/wp-content/uploads/2018/02/climate-change-co2-emissions-evening-view-industrial-landscape-city-smoke-586646627-1068x601.jpg');
+  margin-bottom: 3px;
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 48pt;
+  background-size: cover;
+  background-position: center;
+}
+.headertwo{
+  text-align: center;
+  font-size: 70px;  background-image: url('https://www.researchgate.net/profile/Marcel_Machado/publication/282135749/figure/fig1/AS:681956492726279@1539602506691/Human-migration-map-expansion-of-modern-humans-from-Africa-approximately-70-000-years.png');
+  margin-bottom: 3px;
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 48pt;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.Affectedanimals {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px;
+  text-align: center;
+}
+.pics {
+  display: inline-block;
+  width: 22%;
+  height: 300px;
+  padding: 0px;
+  margin: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.affected{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 200px;
+
+}
+
+.readmore{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.another{
+  font-size: 35px;
+  color:#fff;
+  background-color: #DCDCDC;
+  border:none;
+  padding:15px;
+  cursor:pointer;
+  border-radius:60px;
+}
+
+.pgtwo{
+  background-image: url('https://www.channelone.com/wp-content/uploads/2015/11/bigstock-Sleeping-giant-panda-baby-38657422-1170x378.jpg');
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin-bottom: 3px;
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 48pt;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.Placestodonate {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px;
+  text-align: center;
+}
+
+.stuff {
+  display: inline-block;
+  width: 22%;
+  height: 300px;
+  padding: 0px;
+  margin: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.stuff {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px;
+  text-align: center;
+}
